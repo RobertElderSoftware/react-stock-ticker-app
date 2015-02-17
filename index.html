@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React.js Stock Market Demo App</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <script src="react.js"></script>
+    <script src="JSXTransformer.js"></script>
+    <script src="jquery.min.js"></script>
+    <style type="text/css">
+	.table-striped > tbody > tr:hover > td {
+	    background-color: #efefef;
+	}
+	body table.table-striped tr td.up-tick{
+		color: #468847;
+		background-color: rgb(223, 240, 216);
+	}
+	body table.table-striped tr td.down-tick{
+		color: #c7254e;
+		background-color: #f9f2f4;
+	}
+	.stockchart{
+		height: 300px;
+	}
+	.mid-td{
+		width: 600px;
+	}
+	.stockchart td{
+		position: relative;
+	}
+	.stock-table tr.clickable{
+		cursor: pointer;
+	}
+	.stock-table{
+		width: 800px;
+		margin-right: auto;
+		margin-left: auto;
+		border: 1px solid #CCCCCC;
+		margin-bottom: 40px;
+	}
+	.stock-table td{
+		padding: 0px 5px 0px 5px;
+	}
+	.scale-number{
+		width: 90px;
+		text-align: center;
+	}
+	.intro{
+		margin: 70px auto 50px auto;
+		width: 800px;
+	}
+	.is-open{
+		border: 1px solid #468847;
+	}
+    </style>
+  </head>
+  <body>
+    <div class="intro">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a demo app I made to learn Facebook's new <a href="http://facebook.github.io/react/">react.js framework</a>. &nbsp;Below, you'll find an interactive interface that displays some simulated real-time stock data. &nbsp;You can click on each ticker symbol to see a chart of recent price activity. &nbsp;This app was build over the course of a few days and ended up being under 300 lines of Javascript. &nbsp;I did a review of this framework <a href="http://blog.robertelder.org/react-js-review/">here</a></p>
+    </div>
+    <div id="content"></div>
+    <script type="text/jsx;harmony=true" src="stocks.js"></script>
+  </body>
+</html>

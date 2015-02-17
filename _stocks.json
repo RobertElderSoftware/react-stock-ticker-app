@@ -1,0 +1,72 @@
+[
+    {
+        "symbol": "ABC.PK",
+        "price": 79.89,
+        "is_trending": true,
+        "trend_direction": 1,
+        "last_change": -0.01
+    },
+    {
+        "symbol": "GLD",
+        "price": 78.14,
+        "is_trending": true,
+        "trend_direction": 1,
+        "last_change": -0.05
+    },
+    {
+        "symbol": "FOO",
+        "price": 108.38,
+        "is_trending": true,
+        "trend_direction": 1,
+        "last_change": 0
+    },
+    {
+        "symbol": "BOO",
+        "price": 84.58,
+        "is_trending": false,
+        "trend_direction": 1,
+        "last_change": 0
+    },
+    {
+        "symbol": "FB",
+        "price": 74.82,
+        "is_trending": true,
+        "trend_direction": 1,
+        "last_change": 0.01
+    },
+    {
+        "symbol": "AAPL",
+        "price": 56.02,
+        "is_trending": true,
+        "trend_direction": 1,
+        "last_change": 0.01
+    },
+    {
+        "symbol": "ORCL",
+        "price": 83.12,
+        "is_trending": true,
+        "trend_direction": 1,
+        "last_change": 0
+    },
+    {
+        "symbol": "MSFT",
+        "price": 92.39,
+        "is_trending": true,
+        "trend_direction": -1,
+        "last_change": 0.01
+    },
+    {
+        "symbol": "GS",
+        "price": 98.36,
+        "is_trending": true,
+        "trend_direction": -1,
+        "last_change": -0.01
+    },
+    {
+        "symbol": "QQQQ",
+        "price": 111.24,
+        "is_trending": true,
+        "trend_direction": 1,
+        "last_change": 0.01
+    }
+]
